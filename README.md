@@ -2,14 +2,14 @@
 
 ## Installation
 ```
-npm install --save-dev stylelint-config-halo-lab
+npm install --save-dev @halolab/stylelint-config-halo-lab
 ```
 
 ## Usage
 In ```.stylelintrc.js```:
 ```js
 module.exports = {
-  extends: ["stylelint-config-halo-lab"],
+  extends: ["@halolab/stylelint-config-halo-lab"],
 };
 ```
 
