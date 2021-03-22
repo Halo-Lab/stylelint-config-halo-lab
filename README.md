@@ -13,6 +13,16 @@ module.exports = {
 };
 ```
 
+Add ```package.json``` сheck the project for errors: 
+```json
+{
+  "scripts": {
+    "stylelint": "stylelint 'src/**/*{.css,.scss}'",
+    "stylelint:fix": "stylelint 'src/**/*{.css,.scss}' --fix"
+  },
+}
+```
+
 ## Status and contribution
 The project is supported by Halo lab development team, we're not working on it regularly, but trying to invest in it when we have time between clients' project. <br />
 Though, feel free to open issues and you're very welcome to contribute. 
