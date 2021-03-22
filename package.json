@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-halo-lab",
+  "name": "@halolab/stylelint-config-halo-lab",
   "version": "1.0.0",
   "description": "Stylelint config that halo lab development team is using for ReactJS projects",
   "main": "index.js",
