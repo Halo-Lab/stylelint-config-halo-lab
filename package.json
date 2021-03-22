@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-config-halo-lab",
+  "version": "1.0.0",
+  "description": "Stylelint config that halo lab development team is using for ReactJS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylelint",
+    "lintstyle",
+    "halo-lab-stylelint"
+  ],
+  "author": "Halo lab",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Halo-Lab/stylelint-config-halo-lab"
+  },
+  "bugs": {
+    "url": "https://github.com/Halo-Lab/stylelint-config-halo-lab/issues"
+  },
+  "homepage": "https://github.com/Halo-Lab/stylelint-config-halo-lab#readme",
+  "devDependencies": {}
+}
