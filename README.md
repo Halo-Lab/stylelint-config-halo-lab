@@ -13,18 +13,6 @@ module.exports = {
 };
 ```
 
-For work in VS Code you need: Install extensions ```stylelint``` and add configuration autofix VS Code ```setting.json```;
-```json
-{  
-  "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": true,
-  },
-  "scss.validate": false,
-  "css.validate": false,
-  "less.validate": false,
-}
-```
-
 ## Status and contribution
 The project is supported by Halo lab development team, we're not working on it regularly, but trying to invest in it when we have time between clients' project. <br />
 Though, feel free to open issues and you're very welcome to contribute. 
