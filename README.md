@@ -1,28 +1,27 @@
-# Eslint halo lab config TypeScript
+# Stylelint halo lab config
 
 ## Installation
 ```
-npm install --save-dev eslint-config-halo-lab-typescript
+npm install --save-dev stylelint-config-halo-lab
 ```
 
 ## Usage
-In ```.eslintrc```:
-```json
-{
-  "extends": [
-    "halo-lab-typescript"
-  ]
-}
+In ```.stylelintrc.js```:
+```js
+module.exports = {
+  extends: ["stylelint-config-halo-lab"],
+};
 ```
 
-And add your ```tsconfig.json``` in ```.eslintrc```;
-
+For work in VS Code you need: Install extensions ```stylelint``` and add configuration autofix VS Code ```setting.json```;
 ```json
-{
-  "parserOptions": {
-    "project": "tsconfig.json",
-    "tsconfigRootDir": "."
-  }
+{  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+  },
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
 }
 ```
 
