@@ -23,6 +23,16 @@ Add ```package.json``` сheck the project for errors:
 }
 ```
 
+If you need to add global styles or reset for tags ```_global.scss```, ```_reset.scss```, ```_normalize.scss``` you need add front the name file of ```_```. And add ignore file.
+```json
+{
+  "ignoreFiles": [
+    "src/**/_*.scss",
+    "src/**/_*.css",
+  ],
+}
+```
+
 ## Status and contribution
 The project is supported by Halo lab development team, we're not working on it regularly, but trying to invest in it when we have time between clients' project. <br />
 Though, feel free to open issues and you're very welcome to contribute. 

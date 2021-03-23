@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-halo-lab",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stylelint config that halo lab development team is using for ReactJS projects",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "stylelint": "^13.12.0",
+    "stylelint-selector-tag-no-without-class": "^2.0.3",
     "stylelint-config-css-modules": "^2.2.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-rational-order": "^0.1.2",
